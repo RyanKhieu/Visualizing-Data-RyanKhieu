@@ -25,6 +25,6 @@ void draw() {
   push();
   translate(100, width/2);
   rotate(HALF_PI * -1);
-  text("Number of Strings", 650, -50);
+  text("Number of Streams", 650, -50);
   pop();
 }
