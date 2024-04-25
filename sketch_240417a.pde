@@ -21,4 +21,10 @@ void draw() {
   box();
   textSize(50);
   text("Tracks", width/2, 2120);
+  
+  push();
+  translate(100, width/2);
+  rotate(HALF_PI * -1);
+  text("Number of Strings", 650, -50);
+  pop();
 }
